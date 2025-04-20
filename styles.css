@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Quicksand&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d3e671;
+}
+
+.container {
+    max-width: 700px;
+    padding: 2rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    margin-bottom: 0.2rem;
+    color: #fff;
+}
+
+
+.hero h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: #fff;
+}
+
+.flower p {
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #87440a;
+}
+
+.flower-list span {
+    display: inline-block;
+    margin: 0.3rem 0.7rem;
+    padding: 0.3rem 0.8rem;
+    color: #87440a;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.quote {
+    font-style: italic;
+    margin: 2rem 0;
+    line-height: 1.7;
+    color: #3d582a;
+}
+
+.flowers {
+    color: #87440a;
+}
+
+header {
+    width: 100%;
+    position: relative;
+    background-image: url(4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 2rem;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: -1;
+}
+
+.bottom {
+    width: 100%;
+    position: relative;
+    background-image: url(3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 4rem 2rem;
+    color: white;
+    z-index: 1;
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: center;
+}
+
+.bottom::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+footer {
+    color: #3d582a;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
